@@ -11,4 +11,4 @@ inputs:
 - name: default-theme-dev
 
 run:
-  path: create-rc.sh
+  path: ci-scripts/create-rc.sh
