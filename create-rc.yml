@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: golang, tag: 1.6-alpine}
+
+inputs:
+- name: backend-dev
+- name: admin-dev
+- name: default-theme-dev
+
+run:
+  path: create-rc.sh
